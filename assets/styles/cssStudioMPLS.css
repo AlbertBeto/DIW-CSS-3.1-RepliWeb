@@ -1,0 +1,21 @@
+body{
+    font-size: 1em;
+}
+
+.logo{
+    height: 10px;
+}
+
+.botonRedondeado{
+    border: none;
+    text-align: center;
+    display: inline-block;
+height: 30px;
+width: 150px;
+    border-radius: 15px ;
+}
+
+nav{
+    background-color: grey;
+    height: 100px;
+}
