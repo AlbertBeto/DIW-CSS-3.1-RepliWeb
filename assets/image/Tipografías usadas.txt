@@ -12,3 +12,11 @@ Termina
 
 Para subtítulos
 
+Marron superior
+#bab3a1
+
+Los negros que son negros
+#000000
+
+EL verde chusta
+#9da8a0

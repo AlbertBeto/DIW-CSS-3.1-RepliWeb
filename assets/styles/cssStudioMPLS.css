@@ -1,21 +1,142 @@
 body{
     font-size: 1em;
+    background-color: #bab3a1;
+    font-family: 'Capitolium 2', sans-serif ;
+    margin: 0;
+}
+
+#elGrande{
+    max-width: 1024px;
 }
 
 .logo{
-    height: 10px;
+    height: 11px;
 }
 
 .botonRedondeado{
-    border: none;
+    border: 1px solid black;
     text-align: center;
     display: inline-block;
-height: 30px;
-width: 150px;
+    height: 25px;
+    width: 160px;
     border-radius: 15px ;
+    background-color: #bab3a1;
+    font-size: 0.4em;
+    font-family: 'Termina Medium', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.1em;
 }
 
-nav{
-    background-color: grey;
-    height: 100px;
+.botonRedondeadoSuperior{
+    border: 1px solid black;
+    text-align: center;
+    display: inline-block;
+    height: 25px;
+    width: 150px;
+    border-radius: 15px ;
+    background-color: #bab3a1;
+    font-size: 0.6em;
+    font-family: 'Termina Medium', sans-serif;
+}
+
+.contenedorSuperior{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+}
+#superiorIzq{
+    align-self: flex-start;
+}
+
+#superiorDer{
+    align-self: flex-end;
+}
+
+.contenedor{
+    display: flex;
+}
+
+#sup{
+    margin-top: 65px;
+    margin-left: 5%;
+    margin-bottom: 0px;
+}
+
+.parejas{
+    margin-left: 8%;
+}
+
+#dreta{
+    font-size: 0.8em;
+    width: 29%;
+}
+
+#esquerra{
+    font-size: 1.2em;
+    width: 36%;
+}
+
+#elquemira{
+    width: 80%;
+}
+
+.titulo{
+    font-family: Tenez, sans-serif;    
+}
+
+#dan{
+    font-size: 2em;
+}
+
+.subtitulo{
+    font-family: 'Termina Medium', sans-serif;   
+}
+
+#dandeabajo{
+    font-size: 0.6em;
+    font-weight: bold;
+    letter-spacing: 0.3em;
+}
+
+#primernegro{
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding-left: 5%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#esquerraNegre{
+    width: 36%;
+}
+
+#dretaNegre{
+    width: 29%;
+}
+
+#clientsServeis{
+    font-size: 1.5em;
+}
+
+#marcas{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+#listaServicios{
+    list-style-type: none;
+    padding-left: 0;
+    font-family: 'Termina Medium', sans-serif;
+    font-size: 0.4em;
+    font-weight: bold;
+    letter-spacing: 0.7em;
+    line-height: 3.5;
+    margin-top: 0;
+}
+
+
+#pastel{
+    background-color:#9da8a0;
 }
