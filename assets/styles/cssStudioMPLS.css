@@ -79,7 +79,7 @@ body{
 #sup{
     margin-top: 65px;
     margin-left: 5%;
-    margin-bottom: -3px;
+    margin-bottom: -4px;
 }
 
 #esquerra{
@@ -156,4 +156,57 @@ body{
 
 #pastel{
     background-color:#9da8a0;
+    width: 100%;
+    padding-left: 5%;
+    padding-top: 100px;
+    padding-bottom: 75px;
+}
+
+#testimonisTea{
+    font-size: 1.5em;
+}
+
+#esquerraPastel{
+    width: 20%;
+}
+
+#dretaPastel{
+    width: 43%;
+}
+
+#botonPastel{
+    background-color: #9da8a0;
+    
+}
+
+#texteTestimoni{
+    text-align: justify;
+    font-size: 0.8em;
+    
+}
+
+#jef{
+    font-family: 'Capitolium 2', sans-serif ;
+    font-size: 0.8em;
+}
+#jefdeabajo{
+    font-size: 0.4em;
+    font-weight: bold;
+    letter-spacing: 0.3em;
+}
+#jefLinea{
+line-height: 0.8em;
+}
+
+
+
+/*Seccion pie negro*/
+footer{
+    background-color: black;
+    color: white;
+}
+
+#foot{
+    width: 100%;
+    height: 200px;
 }
