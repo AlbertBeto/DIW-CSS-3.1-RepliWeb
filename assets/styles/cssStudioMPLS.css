@@ -161,30 +161,22 @@ body{
     padding-top: 100px;
     padding-bottom: 75px;
 }
-
 #testimonisTea{
     font-size: 1.5em;
 }
-
 #esquerraPastel{
     width: 20%;
 }
-
 #dretaPastel{
     width: 43%;
 }
-
 #botonPastel{
-    background-color: #9da8a0;
-    
+    background-color: #9da8a0; 
 }
-
 #texteTestimoni{
     text-align: justify;
-    font-size: 0.8em;
-    
+    font-size: 0.8em;  
 }
-
 #jef{
     font-family: 'Capitolium 2', sans-serif ;
     font-size: 0.8em;
@@ -204,9 +196,29 @@ line-height: 0.8em;
 footer{
     background-color: black;
     color: white;
+    width: 100%;
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 75px;
 }
 
-#foot{
-    width: 100%;
-    height: 200px;
+#esquerraPieNegro{
+    width: 34%;
+}
+#dretaPieNegro{
+    width: 43%;
+}
+#menus{
+    font-size: 2em;
+    font-family: Tenez, sans-serif;    
+}
+#infoContacto{
+    font-size: 0.5em;
+    font-family: 'Termina Medium', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.6em;
+    line-height: 3.2em;
+}
+.fosc{
+    color: grey;
 }
