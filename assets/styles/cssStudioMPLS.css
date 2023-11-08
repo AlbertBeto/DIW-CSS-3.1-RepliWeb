@@ -5,6 +5,7 @@ body{
     margin: 0;
 }
 
+/*Si desconectas/comentas elGrande se vuelve la web responsive*/
 #elGrande{
     max-width: 1024px;
 }
