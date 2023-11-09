@@ -5,9 +5,10 @@ body{
     margin: 0;
 }
 
-/*Si desconectas/comentas elGrande se vuelve la web responsive*/
+/*Si desconectas/comentas el maxwidth de elGrande se vuelve la web responsive*/
 #elGrande{
     max-width: 1024px;
+    margin: 0 auto;
 }
 
 
@@ -23,10 +24,13 @@ body{
 
 #superiorIzq{
     align-self: flex-start;
+    margin-top: 10px;
 }
 
 #superiorDer{
     align-self: flex-end;
+    display: inline-block;
+    font-size: 0.5em;
 }
 
 .logo{
@@ -37,12 +41,13 @@ body{
     border: 1px solid black;
     text-align: center;
     display: inline-block;
-    height: 25px;
-    width: 150px;
+    height: 20px;
+    width: 100px;;
     border-radius: 15px ;
     background-color: #bab3a1;
     font-size: 0.6em;
     font-family: 'Termina Medium', sans-serif;
+    margin-left: 25px;
 }
 
 
